@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{CF10338D-E2C1-4889-BCEA-BE9DF56DC089}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{535599FB-2166-4BDB-A925-5D27255CD208}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{AA4649B8-AD47-4373-9942-537981159ABA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{AEDD6F08-863B-4F16-BF8E-7DB278FD5070}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlMithaliApi", "AlMithaliApi\AlMithaliApi.csproj", "{996C7F0F-D188-4F77-A58D-0C4166F2A971}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{3F4CD99D-C924-4090-9EF3-E95151745596}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{EE415F76-F99D-4DEB-898D-CB1BB4C8191F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0E670035-96CA-46A2-8451-A5C3B3BFF2F1}"
+	ProjectSection(SolutionItems) = preProject
+		.tfignore = .tfignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{535599FB-2166-4BDB-A925-5D27255CD208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535599FB-2166-4BDB-A925-5D27255CD208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535599FB-2166-4BDB-A925-5D27255CD208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535599FB-2166-4BDB-A925-5D27255CD208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4649B8-AD47-4373-9942-537981159ABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4649B8-AD47-4373-9942-537981159ABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4649B8-AD47-4373-9942-537981159ABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4649B8-AD47-4373-9942-537981159ABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEDD6F08-863B-4F16-BF8E-7DB278FD5070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEDD6F08-863B-4F16-BF8E-7DB278FD5070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEDD6F08-863B-4F16-BF8E-7DB278FD5070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEDD6F08-863B-4F16-BF8E-7DB278FD5070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{996C7F0F-D188-4F77-A58D-0C4166F2A971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996C7F0F-D188-4F77-A58D-0C4166F2A971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996C7F0F-D188-4F77-A58D-0C4166F2A971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996C7F0F-D188-4F77-A58D-0C4166F2A971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F4CD99D-C924-4090-9EF3-E95151745596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F4CD99D-C924-4090-9EF3-E95151745596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F4CD99D-C924-4090-9EF3-E95151745596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F4CD99D-C924-4090-9EF3-E95151745596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE415F76-F99D-4DEB-898D-CB1BB4C8191F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE415F76-F99D-4DEB-898D-CB1BB4C8191F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE415F76-F99D-4DEB-898D-CB1BB4C8191F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE415F76-F99D-4DEB-898D-CB1BB4C8191F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{535599FB-2166-4BDB-A925-5D27255CD208} = {CF10338D-E2C1-4889-BCEA-BE9DF56DC089}
+		{3F4CD99D-C924-4090-9EF3-E95151745596} = {CF10338D-E2C1-4889-BCEA-BE9DF56DC089}
+		{EE415F76-F99D-4DEB-898D-CB1BB4C8191F} = {CF10338D-E2C1-4889-BCEA-BE9DF56DC089}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {508008C6-EF29-44D0-8752-ACE3F5842557}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/btsmobile
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Domain\\Domain.csproj
+		SccProjectTopLevelParentUniqueName1 = AlMithaliApi.sln
+		SccProjectName1 = Domain
+		SccLocalPath1 = Domain
+		SccProjectUniqueName2 = Infrastructure\\Infrastructure.csproj
+		SccProjectName2 = Infrastructure
+		SccLocalPath2 = Infrastructure
+		SccProjectUniqueName3 = Persistence\\Persistence.csproj
+		SccProjectName3 = Persistence
+		SccLocalPath3 = Persistence
+		SccProjectUniqueName4 = AlMithaliApi\\AlMithaliApi.csproj
+		SccProjectName4 = AlMithaliApi
+		SccLocalPath4 = AlMithaliApi
+		SccProjectUniqueName5 = Common\\Common.csproj
+		SccProjectTopLevelParentUniqueName5 = AlMithaliApi.sln
+		SccProjectName5 = Common
+		SccLocalPath5 = Common
+		SccProjectUniqueName6 = Application\\Application.csproj
+		SccProjectTopLevelParentUniqueName6 = AlMithaliApi.sln
+		SccProjectName6 = Application
+		SccLocalPath6 = Application
+	EndGlobalSection
+EndGlobal
